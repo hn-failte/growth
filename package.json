@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "serve": "pm2 start .",
+    "stop": "pm2 stop .",
+    "del": "pm2 delete ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-jwt": "^4.0.1",
+    "koa-views": "^7.0.1",
+    "pm2": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
